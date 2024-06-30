@@ -17,7 +17,8 @@ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 
-sudo apt-get install python-tk python3-tk tk-dev
+sudo apt-get install python-tk python3-tk tk-dev 
+sudo apt-get install liblzma-dev
 
 #install buildtools to build python from source
 sudo apt install libssl-dev libffi-dev libncurses5-dev zlib1g zlib1g-dev libreadline-dev libbz2-dev libsqlite3-dev make gcc

@@ -1,3 +1,9 @@
-# essential_scripts
+# install_scripts
 
-Contains only the most used applications needed for a fresh install of ubuntu based OSes.
+Installs few apps in Debian based systems
+- pyenv
+- brave
+- telegram
+- git
+- brave browser
+- (to add more)

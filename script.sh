@@ -45,7 +45,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 nvm install --lts
 
-
+git config --global user.name "Soumya"
+git config --global user.email "soumyamukherjee@mail.com"
 #restart shell 
 exec "$SHELL"
 
